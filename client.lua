@@ -1,3 +1,4 @@
+print("Made by Marshy")
 Citizen.CreateThread(function()
     if config.UK then
 		TriggerEvent('chat:addSuggestion', '/warrant', 'Show your Warrant Card.')	
@@ -6,7 +7,6 @@ Citizen.CreateThread(function()
 		end)
     end
 end)
-
 Citizen.CreateThread(function()
     if config.USA then 
 		TriggerEvent('chat:addSuggestion', '/badge', 'Flash your Badge.')
@@ -15,8 +15,6 @@ Citizen.CreateThread(function()
 		end)
     end
 end)
-
-print("Made by Marshy")
 
 RegisterNetEvent('MarshyBadge:client:animation')
 AddEventHandler('MarshyBadge:client:animation', function()
@@ -34,3 +32,4 @@ AddEventHandler('MarshyBadge:client:animation', function()
         ClearPedSecondaryTask(ped)
     end)
 end)
+print("Made by Marshy")
